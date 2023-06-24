@@ -1,0 +1,160 @@
+header {
+    background-color: #CE0505;
+    height: 80px;
+    position: relative;
+}
+
+#logo {
+    color: #CE0505;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    padding: 6px 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+.login-signup{
+    background-color: #CE0505;
+    position: absolute;
+    word-spacing: 10px;
+    right: 100px;
+    padding-top: 15px;
+}
+
+.login {
+    color: white;
+    background-color: #CE0505;
+    margin-right: 10px;
+    border: none;
+}
+
+.signup {
+    color: white;
+    background-color: #CE0505;
+    word-spacing: normal;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+.Container {
+    padding: 45px 150px;
+}
+
+.resBanner {
+    height: 350px;
+    width: 100%;
+}
+
+.resName {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #192F60;
+}
+
+.galButton {
+    background-color: white;
+    color: black;
+    border: none;
+    position: absolute;
+    bottom: 283px;
+    right: 165px;
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+.orderButton {
+    float: right;
+    border-radius: 5px;
+    background-color: #CE0505;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.heading1 {
+    color:#192F60;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.heading2 {
+    color: #192F60;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.tab-container {
+    display: flex;
+    clear: both;
+  }
+  
+  .tab {
+    color: #192F60;
+    font-weight: bold;
+    margin: 0px 10px;
+  }
+
+  .tab.active {
+    border-bottom: solid 2px red;
+    padding-bottom: 4px;
+  }
+  
+  .tab-content {
+    display: none;
+    padding: 20px;
+  }
+  
+  .tab-content.show {
+    display: block;
+  }
+
+  hr {
+    margin-top: 0px;
+    border-width: 2px;
+  }
+
+  .bannerImg {
+    height: 430px
+  }
+
+  .restaurant-name {
+    color: #192F60;
+    font-weight: bolder;
+    font-size: 25px;
+    float: left;
+    padding-left: 20px;
+  }
+
+  .item-total {
+    color: #192F60;
+    font-weight: bold;
+    font-size: 16px;
+    clear: left;
+    float: left;
+    padding-left: 20px;
+  }
+
+  .order-button {
+    position: absolute;
+    left: 640px;
+  }
+
+  .add-button {
+    position: absolute;
+    left: 638px;
+    top: 83px;
+  }
+
+  .add-number {
+    position: absolute;
+    left: 631px;
+    top: 83px;
+  }
+
+  
+  

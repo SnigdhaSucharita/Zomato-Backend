@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+    background-color: #FBFBFB;
+}
+
+/*Banner CSS*/
+
+.back-img {
+    background-image: linear-gradient(to bottom, rgba(157,14,14,0) 2%, rgba(79,7,7,0.8) 100%), url(../../public/img/Assets/Homepage-Wallpaper.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+
+.logo-h {
+    color: #eb2929;
+    background-color: white;
+    font-size: 60px;
+    font-weight: 600;
+    border-radius: 100%;
+}
+
+.restaurant-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.line {
+    position: relative;
+}
+
+.dropdown {
+    border-radius: 0%;
+    padding: 8px;
+    font-size: 15px;
+    color: grey;
+    position: absolute;
+    left: 460px;
+    width: 195px;
+    
+    
+    
+}
+
+.icon {
+    color: grey;
+    background-color: #fff;
+    border-radius: 0%;
+}
+
+.searchbar {
+    position: absolute;
+    left: 660px;
+    top: 10px;
+}
+
+.inputbar {
+    font-size: 15px;
+    color: grey;
+    background-color: #fff;
+    padding: 8px;
+    width: 344px;
+    border: white;  
+}
+
+
+/*QuickSearch CSS*/
+
+.heading {
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #192F60;
+}
+
+.heading-text {
+    color: grey;
+    font-size: 18px;
+}
+
+.box-c {
+    margin-right: 40px;
+    box-shadow: 2px 4px 3px #cecdcd;
+    margin-bottom: 20px;
+    
+}
+
+.l-box {
+    height: 160px; 
+    width: 170px;
+}
+
+.r-box {
+    height: 160px; 
+    width: 210px;
+    padding: 22px 22px;
+}
+
+.img-qs {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #192F60;
+    font-weight: bold;
+}
+
+.card-content {
+    color: #8C96AB;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.suggestion {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0;
+    position: absolute;
+    margin: 42px 3px 4px 1px;
+    width: 24rem;
+}
+
+.sugImg {
+    width: 15%;
+    border-radius: 50%;
+    display: initial;
+    height: 50px;
+    margin: 10px 13px 0px -24px;
+}
+
+.sugName {
+    color: #192F60;
+    font-weight: 700;
+}
+
+.sugAdd {
+    color: #636F88;
+    font-weight: 100;
+    font-size: 12px;
+    display: block;
+    margin: -20px 0px 8px 42px;
+}

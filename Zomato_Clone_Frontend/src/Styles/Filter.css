@@ -1,0 +1,174 @@
+
+header {
+    background-color: #CE0505;
+    height: 60px;
+    position: relative;
+}
+
+#logo {
+    color: #CE0505;
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    padding: 6px 15px;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-top: 8px;
+    
+}
+
+.login-signup{
+    background-color: #CE0505;
+    position: absolute;
+    word-spacing: 10px;
+    right: 100px;
+    padding-top: 15px;
+    height: 60px;
+}
+
+.login {
+    color: white;
+    background-color: #CE0505;
+    margin-right: 10px;
+    border: none;
+}
+
+.signup {
+    color: white;
+    background-color: #CE0505;
+    word-spacing: normal;
+    padding: 5px;
+    border: 1px solid white;
+}
+
+
+section {
+    position: relative;
+    padding: 20px 50px;
+}
+
+.title {
+    color: #192F60;
+    font-weight: 640;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.Filters {
+    height:600px;
+    width:200px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 10px 20px;
+}
+
+
+select {
+    margin-top: 10px;
+    padding: 5px;
+    width: 160px;
+}
+.results0 {
+    height: 250px;
+    width: 750px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: absolute;
+    top: 95px;
+    left: 320px;
+    padding: 30px 30px;
+}
+
+.results1 {
+    height: 250px;
+    width: 750px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    position: absolute;
+    top: 372px;
+    left: 320px;
+    padding: 30px 30px;
+}
+
+h4 {
+    font-weight: bolder;
+    color: #192F60;
+}
+
+h5, h6 {
+    font-weight: bold;
+    color: #192F60;
+
+}
+
+.checkbox, .radio-button, .sort, .location {
+    color: grey;
+}
+
+.img-res {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 120px;
+    max-width: 120px;
+    border-radius: 20px;
+}
+
+.rt-box {
+    margin-left: 20px;
+}
+
+.result-heading, .result-text-blue{
+    color: #192F60;
+}
+
+.result-subheading{
+    font-weight: bold;
+}
+
+.result-text{
+    color: grey;
+}
+
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.rl-box{
+    margin-left: 20px;
+}
+
+.pagination {
+    position: absolute;
+    bottom: 0px;
+    margin: 10px;
+    margin-left: 40%;
+}
+.box-p {
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 10px;
+    margin: 5px;
+}
+
+.message {
+    position: absolute;
+    top: 300px;
+    left: 45%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #192F60;
+
+}
+
+.avatar {
+    border-radius: 500px;
+    height: 45px;
+    width: 45px;
+    margin-right: 12px;
+}
